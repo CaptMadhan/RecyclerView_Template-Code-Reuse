@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/teal_700">
+        <TextView
+            android:id="@+id/TextDisplayed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/january"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
